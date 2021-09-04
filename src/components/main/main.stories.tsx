@@ -5,15 +5,15 @@ export default {
   title: 'Main',
   component: Main,
   args: {
-    title: 'title default',
-    description: 'description default'
+    title: 'Boilerplate Attend',
+    description: 'Stack: React, Typescript e Node'
   }
 } as Meta
 
 export const Basic: Story = (args) => <Main {...args} />
 Basic.args = {
-  title: 'default title',
-  description: 'default description'
+  title: 'title basic',
+  description: 'description basic'
 }
 
 export const Default: Story = (args) => <Main {...args} />
